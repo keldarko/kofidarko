@@ -62,7 +62,7 @@ export function Hero() {
                 <Linkedin className="w-5 h-5" />
               </Link>
               <Link
-                href="mailto:hello@example.com"
+                href="mailto:hello@kofidarko.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >
