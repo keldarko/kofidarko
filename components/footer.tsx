@@ -19,7 +19,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="text-foreground hover:text-primary transition-colors"
           >
-            Vercel
+            DreamHost
           </a>
           .
         </p>
