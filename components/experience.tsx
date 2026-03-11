@@ -4,31 +4,31 @@ import Link from "next/link";
 
 const experiences = [
   {
-    period: "2023 — Present",
-    title: "Senior Software Engineer",
-    company: "Tech Company",
-    companyUrl: "#",
+    period: "2022 — Present",
+    title: "Frontend Developer",
+    company: "Marks & Spencer - Operations Team",
+    companyUrl: "https://www.marksandspencer.com",
     description:
       "Build and maintain critical components used to construct frontend platforms. Work closely with cross-functional teams to implement and advocate for best practices in web development.",
     technologies: ["TypeScript", "React", "Next.js", "Node.js", "PostgreSQL"],
   },
   {
-    period: "2021 — 2023",
-    title: "Software Engineer",
-    company: "Startup Inc",
-    companyUrl: "#",
+    period: "2016 — 2022",
+    title: "Digital Producer",
+    company: "Marks & Spencer - Editorial Team",
+    companyUrl: "https://www.marksandspencer.com/content",
     description:
-      "Developed and shipped highly interactive web applications for diverse clients. Built reusable component libraries and established coding standards.",
-    technologies: ["JavaScript", "React", "GraphQL", "Tailwind CSS", "AWS"],
+       "Collaborated with designers to translate mockups into responsive, accessible web pages. Optimized performance and improved Core Web Vitals across client sites.",
+    technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "SCSS"],
   },
   {
-    period: "2019 — 2021",
-    title: "Frontend Developer",
-    company: "Digital Agency",
+    period: "2012 — 2016",
+    title: "Web Developer",
+    company: "ECOM Recruitment Agency",
     companyUrl: "#",
     description:
-      "Collaborated with designers to translate mockups into responsive, accessible web pages. Optimized performance and improved Core Web Vitals across client sites.",
-    technologies: ["HTML", "CSS", "JavaScript", "Vue.js", "SCSS"],
+      "Worked on various client projects, developing custom websites and applications. Gained experience in full-stack development and client communication.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
 ];
 
@@ -88,7 +88,7 @@ export function Experience() {
             href="/resume.pdf"
             className="group inline-flex items-center gap-2 text-foreground font-medium hover:text-primary transition-colors"
           >
-            View Full Résumé
+            View Full CV
             <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
           </Link>
         </div>

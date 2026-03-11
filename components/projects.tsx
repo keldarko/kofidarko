@@ -7,22 +7,22 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
+    title: "City Gates London - Church",
     description:
-      "A full-stack e-commerce solution with real-time inventory management, secure payment processing, and an intuitive admin dashboard. Built for scale with optimized database queries and caching strategies.",
+      "A modern e-commerce platform for a London-based church, featuring a custom CMS, online donations, and event management. Built with a focus on accessibility and performance.",
     image: "/projects/ecommerce.jpg",
     technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Redis"],
     github: "https://github.com",
-    live: "https://example.com",
+    live: "https://citygates.london",
   },
   {
-    title: "Task Management App",
+    title: "11 Plus Tution Platform",
     description:
-      "A collaborative project management tool featuring real-time updates, drag-and-drop interfaces, and team collaboration features. Includes automated workflows and notification systems.",
+      "A comprehensive online learning platform for 11 Plus students, offering interactive lessons, practice tests, and progress tracking. Designed to provide a personalized learning experience.",
     image: "/projects/taskapp.jpg",
     technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Docker"],
     github: "https://github.com",
-    live: "https://example.com",
+    live: "http://11plustuitions.com/",
   },
   {
     title: "AI Content Generator",
