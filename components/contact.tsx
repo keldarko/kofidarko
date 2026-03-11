@@ -4,27 +4,27 @@ import Link from "next/link";
 const socialLinks = [
   {
     name: "Email",
-    href: "mailto:hello@example.com",
+    href: "mailto:kofi@kofidarko.com",
     icon: Mail,
-    label: "hello@example.com",
+    label: "kofi@kofidarko.com",
   },
   {
     name: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/keldarko",
     icon: Github,
-    label: "@yourusername",
+    label: "@keldarko",
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com",
+    href: "https://linkedin.com/in/keldarko",
     icon: Linkedin,
-    label: "/in/yourprofile",
+    label: "/in/keldarko",
   },
   {
     name: "Twitter",
-    href: "https://twitter.com",
+    href: "https://twitter.com/keldarko",
     icon: Twitter,
-    label: "@yourhandle",
+    label: "@keldarko",
   },
 ];
 
