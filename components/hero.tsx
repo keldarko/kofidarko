@@ -13,7 +13,7 @@ export function Hero() {
           <div className="space-y-6">
             <div>
               <Image
-                src="/placeholder-user.jpg"
+                src="/kofi.png"
                 alt="Kofi Darko"
                 width={150}
                 height={150}
