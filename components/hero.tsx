@@ -15,7 +15,7 @@ export function Hero() {
                 Kofi Darko
               </h1>
               <p className="text-xl text-primary mt-2 font-medium">
-                Full Stack Developer
+                Software Developer
               </p>
             </div>
 
