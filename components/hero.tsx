@@ -2,6 +2,7 @@
 
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -11,6 +12,13 @@ export function Hero() {
           {/* Left Column - Identity */}
           <div className="space-y-6">
             <div>
+              <Image
+                src="/placeholder-user.jpg"
+                alt="Kofi Darko"
+                width={150}
+                height={150}
+                className="rounded-full mx-auto lg:mx-0"
+              />
               <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-foreground">
                 Kofi Darko
               </h1>

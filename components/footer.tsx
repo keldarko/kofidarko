@@ -14,7 +14,7 @@ export function Footer() {
           </a>{" "}
           and{" "}
           <a
-            href="https://vercel.com"
+            href="https://dreamhost.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-foreground hover:text-primary transition-colors"
