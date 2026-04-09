@@ -2,6 +2,7 @@
 
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -11,11 +12,18 @@ export function Hero() {
           {/* Left Column - Identity */}
           <div className="space-y-6">
             <div>
+              <Image
+                src="/kofi.png"
+                alt="Kofi Darko"
+                width={150}
+                height={150}
+                className="rounded-full mx-auto lg:mx-0"
+              />
               <h1 className="text-4xl lg:text-5xl font-bold tracking-tight text-foreground">
                 Kofi Darko
               </h1>
               <p className="text-xl text-primary mt-2 font-medium">
-                Full Stack Developer
+                Software Developer
               </p>
             </div>
 
@@ -62,7 +70,7 @@ export function Hero() {
                 <Linkedin className="w-5 h-5" />
               </Link>
               <Link
-                href="mailto:hello@example.com"
+                href="mailto:hello@kofidarko.com"
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label="Email"
               >
